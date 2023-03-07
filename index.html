@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form_DK_hoc_vien</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#" method="get">
+  <div class="container">
+    <div class="heading_form">
+      <span>Đăng ký học viên</span>
+    </div>
+    <div class="body_form">
+      <table>
+        <tr>
+          <td class="tittle">Họ và tên</td>
+          <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+          <td class="tittle">Ngày sinh</td>
+          <td><input type="text" name="birthday"></td>
+        </tr>
+        <tr>
+          <td class="tittle">Giới tính</td>
+          <td>
+            <input type="radio" id="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="female">
+            <label for="female">Nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td class="tittle">Địa chỉ</td>
+          <td><textarea rows="4" cols="20"></textarea></td>
+        </tr>
+        <tr>
+          <td>
+        <tr>
+          <td class="tittle">Lớp</td>
+          <td>
+            <select name="classname">
+              <option value="--chọn lớp--">chọn lớp</option>
+              <option value="PHP">PHP</option>
+              <option value="Java">Java</option>
+              <option value="python">Python</option>
+              <option value="C++">C++</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="tittle">Email</td>
+          <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+          <td class="tittle">Điện thoại</td>
+          <td><input type="text" name="phone"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer_form">
+        <button type="submit">Đăng ký</button>
+        <button type="Reset">Nhập lại</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
